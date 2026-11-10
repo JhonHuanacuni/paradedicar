@@ -9,11 +9,13 @@ export default function App() {
     <>
       <AmbientBackground />
       <main className="stage" id="inicio">
-        <Profile />
-        <SocialLinks />
-        <ActionLinks />
+        <article className="sheet">
+          <Profile />
+          <SocialLinks />
+          <ActionLinks />
+          <Footer />
+        </article>
       </main>
-      <Footer />
     </>
   );
 }
