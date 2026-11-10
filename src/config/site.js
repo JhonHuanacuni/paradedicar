@@ -2,13 +2,8 @@
  * Configuración central de Dreamsaph.
  *
  * TikTok ya usa el perfil real.
- * PROVISIONAL: los cuatro botones de venta apuntan a destinos temporales
- * hasta que reemplaces estas URL por las páginas y el grupo definitivos.
- *
- * Código personalizado: "https://tu-pagina-de-dedicatorias"
- * Códigos gratis:       "https://tu-pagina-de-codigos"
- * Link personalizado:   "https://tu-pagina-para-crear-link"
- * Grupo de WhatsApp:    "https://chat.whatsapp.com/TU_GRUPO"
+ * La venta vive en Buy Me a Coffee de Dreamsaph.
+ * El grupo de WhatsApp sigue provisional hasta el enlace chat.whatsapp.com.
  */
 export const site = {
   name: "Dreamsaph",
@@ -26,9 +21,9 @@ export const destinations = {
   facebook: "https://www.facebook.com",
   whatsapp: "https://www.whatsapp.com",
   tiktok: "https://www.tiktok.com/@dreamsaph",
-  codigoPersonalizado: "https://www.tiktok.com/@dreamsaph",
-  codigosGratis: "https://www.tiktok.com/@dreamsaph",
-  linkPersonalizado: "https://www.tiktok.com/@dreamsaph",
+  codigoPersonalizado: "https://buymeacoffee.com/dreamsaph/membership",
+  codigosGratis: "https://buymeacoffee.com/dreamsaph/extras",
+  linkPersonalizado: "https://buymeacoffee.com/dreamsaph/extras",
   grupoWhatsapp: "https://www.whatsapp.com",
 };
 
